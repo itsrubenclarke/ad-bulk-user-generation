@@ -20,7 +20,7 @@ Then test logins on client-1 with these new accounts. This setup simulates user 
 <h2>Key Objectives</h2>
 
 <p>
-  <h3>Setup RDP for non-adminstrative users on client-1</h3>
+  <h3>Setup RDP for non-administrative users on client-1</h3>
   
   -  Log into client-1 as Domain Admin and enable Remote Desktop Access 
 </p>

@@ -87,7 +87,7 @@ Then test logins on client-1 with these new accounts. This setup simulates user 
 - Run the script and observe the accounts being created
 - Once complete open the "Active Directory Users and Computer" and confirm the accounts are in the appropriate organisational unit "_EMPLOYEES"
 - Log out of "client-1" using the "logoff" command
-- Attempt to log into "client-1" with one of the acccounts using the password that was present in the <a href="https://github.com/itsrubenclarke/AD-PS/blob/main/Generate-Names-Create-Users.ps1">script</a> "Password1"
+- Attempt to log into "client-1" with one of the accounts using the password that was present in the <a href="https://github.com/itsrubenclarke/AD-PS/blob/main/Generate-Names-Create-Users.ps1">script</a> "Password1"
 
 
 <img width="1788" alt="dc-1 Login" src="https://github.com/user-attachments/assets/83a0cedb-a35c-491a-83d2-9cf9544390db" />

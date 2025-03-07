@@ -8,7 +8,7 @@
 This project is the third in a collection focused on implementing Azure and Active Directory. The goal here focuses on configuring Remote Desktop access and user management within an Azure-based Active Directory environment. 
 I will start by powering on the DC-1 and client-1 VMs, then enable Remote Desktop for non-administrative users on client-1. 
 Using the "jane_admin" account, I will allow domain users remote access, enabling standard user logins. 
-Next, I will create multiple user accounts via PowerShell on DC-1, verify them in Active Directory Users and Computers under the _EMPLOYEES Organisational Unit. 
+Next, I will create multiple user accounts via PowerShell on DC-1, and verify them in Active Directory Users and Computers under the _EMPLOYEES Organisational Unit. 
 Then test logins on client-1 with these new accounts. This setup simulates user management and remote access configuration in a domain environment.
 </p>
 

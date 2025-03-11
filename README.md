@@ -118,7 +118,7 @@ Then test logins on client-1 with these new accounts. This setup simulates user 
 
 🎉Congratulations! You configured RDP access and managed Active Directory users in Azure!🎉
 
-In this project, you established Remote Desktop connections to a Windows 10 Pro Client VM (client-1) and a Windows Server 2022 Domain Controller (dc-1) using RDP. You enabled Remote Desktop access for non-administrative users on client-1 by allowing domain users access through system properties. Then, using PowerShell on dc-1, you created multiple Active Directory user accounts in bulk and verified them in the "_EMPLOYEES" organisational unit. Finally, you tested user logins on client-1 some of the newly created accounts, successfully managing user access within the Azure-based Active Directory environment.
+You established Remote Desktop connections to a Windows 10 Pro Client VM (client-1) and a Windows Server 2022 Domain Controller (dc-1) using RDP in this project. You enabled Remote Desktop access for non-administrative users on client-1 by allowing domain users access through system properties. Then, using PowerShell on dc-1, you created multiple Active Directory user accounts in bulk and verified them in the "_EMPLOYEES" organisational unit. Finally, you tested user logins on client-1 some of the newly created accounts, successfully managing user access within the Azure-based Active Directory environment.
 
   
 

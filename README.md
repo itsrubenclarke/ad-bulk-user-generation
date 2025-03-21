@@ -58,7 +58,7 @@ Then test logins on client-1 with these new accounts. This setup simulates user 
     - Mac Users download <a href="https://apps.apple.com/us/app/windows-app/id1295203466?mt=12" target="_blank" rel="noopener noreferrer">Windows App</a> Formerly known as "Microsoft Remote Desktop"
     - Windows Users open and use Remote Desktop
 - Select "Add PC"
-- Select the "client-1" VM you created earlier
+- Select the "client-1" VM that you created earlier
 - Log in as "mydomain.com\jane_admin"
 - Open "System Properties"
 - Click "Remote Desktop"

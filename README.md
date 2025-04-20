@@ -6,7 +6,7 @@
 
 <p> 
 This project is the third in a collection focused on implementing Azure and Active Directory. The goal here focuses on configuring Remote Desktop access and user management within an Azure-based Active Directory environment. 
-I will start by powering on the DC-1 and client-1 VMs, then enable Remote Desktop for non-administrative users on client-1. 
+I will start by powering on the DC-1 and client-1 VMs, then enabling Remote Desktop for non-administrative users on client-1. 
 Using the "jane_admin" account, I will allow domain users remote access, enabling standard user logins. 
 Next, I will create multiple user accounts via PowerShell on DC-1, and verify them in Active Directory Users and Computers under the _EMPLOYEES Organisational Unit. 
 Then test logins on client-1 with these new accounts. This setup simulates user management and remote access configuration in a domain environment.
@@ -67,7 +67,7 @@ Then test logins on client-1 with these new accounts. This setup simulates user 
 - Enter "domain users"
 - Click "Check Names"
 - Click "OK"
-- Should should now see "MYDOMAIN\Domain Users" listed in the Remote Desktop Users window
+- You should now see "MYDOMAIN\Domain Users" listed in the Remote Desktop Users window
 
 <img width="1788" alt="client-1 Login" src="https://github.com/user-attachments/assets/569b3f89-0742-4a42-8f0a-f186d524a405" />
 <img width="1790" alt="System - remote desktop" src="https://github.com/user-attachments/assets/bda1c317-d5d5-4e73-b876-184a8d288449" />
@@ -85,7 +85,7 @@ Then test logins on client-1 with these new accounts. This setup simulates user 
 - Open "PowerShell_ISE" as an administrator
 - Create a new File and paste the contents of <a href="https://github.com/itsrubenclarke/AD-PS/blob/main/Generate-Names-Create-Users.ps1">this</a> script
 - Run the script and observe the accounts being created
-- Once complete open the "Active Directory Users and Computer" and confirm the accounts are in the appropriate organisational unit "_EMPLOYEES"
+- Once complete, open the "Active Directory Users and Computers" and confirm the accounts are in the appropriate organisational unit "_EMPLOYEES"
 - Log out of "client-1" using the "logoff" command
 - Attempt to log into "client-1" with one of the accounts using the password that was present in the <a href="https://github.com/itsrubenclarke/AD-PS/blob/main/Generate-Names-Create-Users.ps1">script</a> "Password1"
 
